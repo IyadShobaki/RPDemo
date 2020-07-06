@@ -8,12 +8,19 @@
     <Reference Include="DataLibrary">
       <HintPath>DataLibrary.dll</HintPath>
     </Reference>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="DataLibrary.dll">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
   </ItemGroup>
 
 </Project>
